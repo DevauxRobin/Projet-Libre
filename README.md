@@ -4,6 +4,8 @@ Projet Libre : Au plus proche
 Le but est de créer un programme Python dans lequel la machine choisit un nombre entre 1 et 50 (par exemple), puis demande au joueur d'essayer de deviner le nombre décidé par la machine. La machine vérifiera le nombre saisi, puis répondra "Le nombre est plus haut.", "Le nombre est plus bas." ou "Gagné."
 
 J'ai tout d'abord importé les modules a utiliser puis commencé a développer le code. Code principal du mini-jeu : Au Plus Proche.py
+Petits problèmes, nouvelle version : Au Plus Proche dernière version.py
+Problèmes dans l'affichage du "Gagné!", je n'ai pas encore trouivé de solution
 
 
 Options supplémentaires a possiblement ajouter :
