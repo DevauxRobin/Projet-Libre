@@ -1,17 +1,17 @@
-###On importe le module "time" pour pouvoir moduler le temps du jeu
+### On importe le module "time" pour pouvoir moduler le temps du jeu
 import time
 
 
+### Résultat
 time.sleep(2)
 
 
 ### Récupération du temps à l'instant T
-temps = time.time()
+time = time.time()
 
 
 ### Temps restant
-tempsvar = tk.StringVar()
-tempsvar.set("60s")
-tentativestxt = tk.Label(window, textvariable=tempsvar, bg=color)
+time = tk.StringVar()
+time.set("60s")
+tentativestxt = tk.Label(window, textvariable=time, bg=color)
 tentativestxt.place(x=20, y=20)
-
