@@ -1,17 +1,19 @@
 ### Enlever 1 essai au joueur
-attempts -= 1
-attemptsvar.set(f"{attempts} Tentatives")
+attempt -= 1
+attempts.set(f"{attempts} Tentatives")
 
 
 # Variable stockant les tentatives
-attemptsvar = tk.StringVar()
-attemptsvar.set("? tentatives")
+attempts = tk.StringVar()
+attempts.set("17 tentatives")
 
 
 # Ajout du nombre de tentatives
-attempts = tk.Label(window, textvariable=attemptsvar, bg=color)
-attempts.place(x=250, y=10)
+attempt = tk.Label(window, textvariable=attempts, bg=color)
+attempt.place(x=250, y=10)
+attempts = tk.Label(window, textvariable=time, bg=color)
+attempts.place(x=20, y=20)
 
 
 # Compteur de tentatives
-attempts = 10
+attempt = 17
