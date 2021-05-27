@@ -13,5 +13,3 @@ time = time.time()
 ### Temps restant
 time = tk.StringVar()
 time.set("60s")
-tentativestxt = tk.Label(window, textvariable=time, bg=color)
-tentativestxt.place(x=20, y=20)
